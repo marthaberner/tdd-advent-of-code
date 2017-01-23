@@ -1,5 +1,5 @@
 var assert = require('assert');
-var myFuncs = require('../1');
+var myFuncs = require('../lib/day_1');
 
 describe('Advent of Code Day 1', function () {
   describe('#getFloor', function () {
