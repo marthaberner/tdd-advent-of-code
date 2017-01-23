@@ -1,4 +1,4 @@
-var input = require('./input');
+var input = require('../data/day_1_input');
 
 function getFloor(instructions) {
   var up = 0, down = 0;

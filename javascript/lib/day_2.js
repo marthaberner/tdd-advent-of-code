@@ -1,5 +1,6 @@
 var fs = require('fs');
-var input = fs.readFileSync('input.js', 'utf8')
+var appRoot = process.cwd();
+var input = fs.readFileSync(appRoot + '/data/day_2_input.js', 'utf8')
 
 function getBoxPaperOrder(box) {
   box = box.split('x');
