@@ -1,5 +1,5 @@
 var assert = require('assert');
-var funcs = require('../2');
+var funcs = require('../lib/day_2');
 
 describe('Wrapping Paper', function() {
   describe('#getBoxPaperOrder', function() {
